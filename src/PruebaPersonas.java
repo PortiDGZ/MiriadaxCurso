@@ -12,7 +12,7 @@ public class PruebaPersonas {
 
         Empleado empleado1 = new Empleado(empleado);
 
-        Empleado empleado2 = new Empleado();
+        Empleado empleado2 = new Empleado(empleado, "1", 1500);
 
         Empleado empleado3 = new Empleado();
 

@@ -14,13 +14,23 @@ public class Empleado extends Persona {
 
     public Empleado(Persona persona, String idpersonal, float sueldo){
 
+        super(persona);
+
+        this.idpersonal = idpersonal;
+
+        this.sueldo = sueldo;
+
 
     }
 
 
     public Empleado(String nombre, byte edad, char sexo, String dni, boolean bCasado, String idpersonal, float sueldo){
 
+        super(nombre, edad, sexo, dni, bCasado);
 
+        this.idpersonal = idpersonal;
+
+        this.sueldo = sueldo;
 
     }
 
