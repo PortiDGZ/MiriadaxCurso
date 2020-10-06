@@ -14,7 +14,9 @@ public class PruebaPersonas {
 
         Empleado empleado2 = new Empleado(empleado, "1", 1500);
 
-        Empleado empleado3 = new Empleado(persona2, "2", 2000);
+        Empleado empleado3 = new Empleado("Cecilia", (byte) 25, 'M', "DNI_A388K", false, "311", 21000);
+
+        
 
 
     }
