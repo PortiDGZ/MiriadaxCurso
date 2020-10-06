@@ -16,6 +16,8 @@ public class PruebaPersonas {
 
         Empleado empleado3 = new Empleado("Cecilia", (byte) 25, 'M', "DNI_A388K", false, "311", 21000);
 
+        persona.pintar();
+
         
 
 
