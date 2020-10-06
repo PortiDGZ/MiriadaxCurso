@@ -60,6 +60,6 @@ public class Empleado extends Persona {
 
     @Override
     void pintar() {
-        super.pintar();
+        ;
     }
 }

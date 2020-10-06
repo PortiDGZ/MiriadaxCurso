@@ -121,7 +121,13 @@ public class Persona {
 
     void pintar(){
 
-        toString();
+        System.out.println("Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", sexo=" + sexo +
+                ", dni='" + dni + '\'' +
+                ", bCasado=" + bCasado +
+                '}');
 
     }
 }
