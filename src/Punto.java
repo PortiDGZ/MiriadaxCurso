@@ -32,7 +32,7 @@ public class Punto {
 
     System.out.println(punto1 + "," + punto2);
 
-    };
+    }
 
     public int getPunto1() {
         return punto1;

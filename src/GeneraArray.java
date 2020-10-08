@@ -1,11 +1,8 @@
-import java.util.Random;
 import java.util.Arrays;
 
 public class GeneraArray {
 
      int[] ArrayInt = new int[6];
-
-    Random generator = new Random();
 
     public GeneraArray(){
         this.ArrayInt = ArrayInt;
@@ -21,25 +18,24 @@ public class GeneraArray {
 
         Arrays.fill(ArrayInt, i);
 
-    };
+    }
 
     public void rellenar(){
 
-        for (int n: ArrayInt
-             ) {
-            Arrays.fill(ArrayInt, generator.nextInt(49));
+        int random = 0;
+
+        for (int i = 0; i < ArrayInt.length; i++) {
+            random = (int) (Math.random()*(49-1)+1);
+            Arrays.fill(ArrayInt, random);
         }
 
-
-
-
-    };
+    }
 
     public void ordenar(){
 
         Arrays.sort(ArrayInt);
 
-    };
+    }
 
     public void visualizar(){
 
@@ -52,8 +48,7 @@ public class GeneraArray {
         }
 
 
-    };
-
+    }
 
 
 }
